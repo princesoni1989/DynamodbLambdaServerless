@@ -1,0 +1,25 @@
+{
+  "name": "dynamo-db",
+  "version": "1.0.0",
+  "main": "handler.js",
+  "scripts": {
+    "local": "serverless invoke local --function createUser -p event.json",
+    "deploy": "serverless deploy -v"
+  },
+  "author": "ratecity.com.au",
+  "dependencies": {
+    "aws-sdk": "^2.226.1",
+    "babel-polyfill": "^6.26.0",
+    "memorystream": "^0.3.1",
+    "uuid": "^3.2.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.6.1",
+    "serverless-webpack": "^5.1.1",
+    "webpack": "^3.9.0",
+    "webpack-plugin-copy": "^1.0.1"
+  },
+  "description": "Converts Web url to pdf"
+}

@@ -1,0 +1,10 @@
+{
+  "body": {
+    "name": "john",
+    "email": "john@gmail.com",
+    "password": "password"
+  },
+  "pathParameters": {
+    "id": "7d0f7d90-4879-11e8-ae72-11f56dfc44b2"
+  }
+}
